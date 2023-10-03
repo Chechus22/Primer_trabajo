@@ -1,0 +1,68 @@
+header{
+    position: sticky;
+    top: 0px;  
+    
+}
+
+header .navBar{
+    padding: 20px;
+    background: linear-gradient(to right, rgb(161, 2, 201), rgb(100, 169, 238));
+    border-color: blueviolet;
+    box-shadow: 0px 0px 10px 1px rgb(177, 176, 179);
+}
+header .listado-menu{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+header .listado-menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+header .logoContainer{
+    background-color:white;
+    padding: 5px;
+    height: 120px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+    
+}
+
+header h1{
+    font-family: 'DM Serif Display', serif;
+    position: relative;
+    left: 65px;
+    bottom: 80px;
+    font-size: 3rem;
+    color: blueviolet;
+    
+}
+
+header img{
+    position: relative;
+    left: 20px;
+}
+.btnHeader{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 150px;
+}
+
+ .btnHeader button{
+border: none;
+color: blueviolet;
+font-weight: 500;
+background-color: white;
+/*position: relative;
+left: 1050px;
+bottom: 150px;*/
+padding: 30px;
+gap: 30px;
+font-size: medium;
+
+}
